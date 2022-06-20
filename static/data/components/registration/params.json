@@ -1,0 +1,25 @@
+{
+	"title": "Registration Form",
+	"params": {
+		"cities": {
+			"title": "Cities",
+			"type": "collection",
+			"required": true,
+			"subParams": {
+				"name": {
+					"title": "Name",
+					"type": "string",
+					"required": true
+				}
+			},
+			"default": [
+				{
+					"name": "Алматы"
+				},
+				{
+					"name": "Нур-султан"
+				}
+			]
+		}
+	}
+}

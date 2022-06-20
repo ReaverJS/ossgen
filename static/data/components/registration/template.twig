@@ -1,0 +1,48 @@
+<section class="registration">
+    <div class="container">
+        <h2>Регистрация</h2>
+
+        <form action="">
+            <div class="form-group">
+                <label for="name">Имя</label>
+                <input id="name" type="text" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="text" name="email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон</label>
+                <input id="phone" type="text" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="company">Компания</label>
+                <input id="company" type="text" name="company">
+            </div>
+            <div class="form-group">
+                <label for="map-place">Место</label>
+                <input id="map-place" type="text" name="map-place" placeholder="Выбрать место">
+            </div>
+            <div class="form-group">
+                <label for="city">Город</label>
+                <select id="city" name="city">
+                    {% for city in cities %}
+                        <option>{{ city.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <input type="submit" value="Отправить 🚀">
+        </form>
+    </div>
+</section>
+
+<div class="registration-modal-layout">
+    <div class="registration-modal">
+        <h2>Выберите место</h2>
+        <a class="close-btn" href="#">✖</a>
+        <div class="svg-wrapper">
+
+        </div>
+    </div>
+</div>

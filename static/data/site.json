@@ -1,0 +1,571 @@
+{
+	"path": "/data/site.json",
+	"name": "Homsters Events",
+	"url": "reaver.dev",
+	"version": "0.1",
+	"pages": [
+		{
+			"url": "/",
+			"title": "Главная",
+			"props": {
+				"description": "Самый лучший сайт в мире"
+			},
+			"blocks": [
+				{
+					"id": "asdf",
+					"component": "header",
+					"params": {
+						"logo": "/admin/data/blocks/public/header/logo.png",
+						"menu": [
+							{
+								"text": "Мероприятия",
+								"scrollTo": ".events",
+								"isSpecial": "isSpecial"
+							},
+							{
+								"text": "Контакты",
+								"scrollTo": ".contacts",
+								"isSpecial": "isSpecial"
+							}
+						]
+					}
+				},
+				{
+					"id": "bnfcxzg",
+					"component": "hero",
+					"params": {
+						"background": "/admin/data/blocks/public/hero/hero.jpg",
+						"overtitle": "",
+						"title": "Мероприятия про рынок недвижимости Казахстана",
+						"subtitle": "Homsters events",
+						"desc": "Команда Homsters.kz старается быть в гуще событий: мы  внимательно следим за рынком и трендами. Приглашаем на площадку специалистов для обсуждения актуальных вопросов, собираем коллег по цеху и говорим обо всем волнующем.  Преимущество нашей площадки в том, что мы можем открыто говорить, мы строим диалог для решения наших общих вопросов. "
+					}
+				},
+				{
+					"id": "zxbebbwwqa",
+					"component": "events",
+					"params": {
+						"title": "Мероприятия",
+						"events": [
+							{
+								"link": "/events/online",
+								"title": "Рынок недвижимости в турбулентное время",
+								"city": "Онлайн",
+								"address": "Zoom, 11:00 (GMT+6)",
+								"date": "28",
+								"month": "июня"
+							},
+							{
+								"link": "/events/nur-sultan",
+								"title": "Ярмарка недвижимости Expohomsters",
+								"city": "Нур-Султан, Конгресс Центр",
+								"address": "ул. Сауран 44",
+								"date": "2-3",
+								"month": "сентября"
+							},
+							{
+								"link": "/events/almaty",
+								"title": "Ярмарка недвижимости Expohomsters",
+								"city": "Алматы, НИИ Алматыгенплан",
+								"address": "пр-т. Абая 90",
+								"date": "24-25",
+								"month": "сентября"
+							}
+						]
+					}
+				},
+				{
+					"id": "ajhr982hg",
+					"component": "opportunities",
+					"params": {
+						"title": "Ваши возможности с Homsters.kz",
+						"opportunities": [
+							{
+								"title": "Продвинутая страничка ЖК",
+								"subtitle": "Имидж вашего ЖК и доверие клиентов благодаря профилю с полным описанием и качественными фотографиями."
+							},
+							{
+								"title": "Лидогенерация",
+								"subtitle": "Лидогенерация\nУскорение продаж благодаря качественным лидам, в нужном вам объёме."
+							},
+							{
+								"title": "Продажа ЖК под ключ",
+								"subtitle": "Продвижение вашего ЖК специалистами Homsters.kz, пока вы заняты или отдыхаете."
+							},
+							{
+								"title": "PR-статьи",
+								"subtitle": "Положительный имидж вашей компании и ЖК через статьи в нашем блоге."
+							},
+							{
+								"title": "Баннерная реклама",
+								"subtitle": "Ваша баннерная реклама на странице поиска Homsters.kz - перед глазами всей нашей аудитории."
+							},
+							{
+								"title": "SMS/Email рассылка",
+								"subtitle": "Дополнительное продвижение через SMS/email рассылку по растущей базе клиентов Homsters.kz."
+							}
+						]
+					}
+				},
+				{
+					"id": "ab3jn9n3na",
+					"component": "feedback",
+					"params": {
+						"title": "Свяжитесь с нами",
+						"links": [
+							{
+								"text": "mussirova@homsters.kz",
+								"link": "mailto:mussirova@homsters.kz",
+								"img": "/admin/data/blocks/public/feedback/email.png"
+							},
+							{
+								"text": "+7 706 411 8660",
+								"link": "tel:+77064118660",
+								"img": "/admin/data/blocks/public/feedback/phone.png"
+							},
+							{
+								"text": "@homsters_kz",
+								"link": "//facebook.com",
+								"img": "/admin/data/blocks/public/feedback/facebook.png"
+							},
+							{
+								"text": "@homsters_kz",
+								"link": "//instagram.com",
+								"img": "/admin/data/blocks/public/feedback/instagram.png"
+							}
+						]
+					}
+				},
+				{
+					"id": "bsfdm2benb20h9",
+					"component": "footer",
+					"params": {
+						"text": "@reaverjs"
+					}
+				}
+			]
+		},
+		{
+			"url": "/events/almaty",
+			"title": "Эвент Алматы",
+			"props": {
+				"description": "Самая лучшая тестовая страница"
+			},
+			"blocks": [
+				{
+					"id": "bn0pwf12nb09",
+					"component": "header",
+					"params": {
+						"logo": "/admin/data/blocks/public/header/logo.png",
+						"menu": [
+							{
+								"text": "Мероприятия",
+								"scrollTo": ".events",
+								"isSpecial": "isSpecial"
+							},
+							{
+								"text": "Стать партнером",
+								"scrollTo": "kk",
+								"isSpecial": "isSpecial"
+							},
+							{
+								"text": "Контакты",
+								"scrollTo": ".events",
+								"isSpecial": "isSpecial"
+							}
+						]
+					}
+				},
+				{
+					"id": "bn0239n2bncba",
+					"component": "event-hero",
+					"params": {
+						"background": "/admin/data/blocks/public/hero/hero.jpg",
+						"overtitle": "HOMSTERS EVENTS",
+						"title": "Ярмарка недвижимости",
+						"subtitle": "#Expohomsters",
+						"city": "Алматы",
+						"address": "Абая, 90",
+						"date": "24",
+						"month": "сентября",
+						"btnText": "Стать партнером",
+						"scrollTo": ".registration"
+					}
+				},
+				{
+					"id": "bn2-0vb2389b98132vb98",
+					"component": "registration",
+					"params": {
+						"cities": [
+							{
+								"name": "Алматы"
+							},
+							{
+								"name": "Нур-султан"
+							}
+						]
+					}
+				},
+				{
+					"id": "bn028b89vfcqca1",
+					"component": "partners",
+					"params": {
+						"title": "Партнеры",
+						"partners": [
+							{
+								"img": "/admin/data/blocks/public/partners/partner-a.jpg",
+								"class": ""
+							},
+							{
+								"img": "/admin/data/blocks/public/partners/logo.png",
+								"class": "homsters-fix"
+							},
+							{
+								"img": "/admin/data/blocks/public/partners/partner-k.png",
+								"class": "kjk-fix"
+							}
+						]
+					}
+				},
+				{
+					"id": "vb928b98vb89b8a9",
+					"component": "feedback",
+					"params": {
+						"title": "Свяжитесь с нами",
+						"links": [
+							{
+								"text": "mussirova@homsters.kz",
+								"link": "mailto:mussirova@homsters.kz",
+								"img": "/admin/data/blocks/public/feedback/email.png"
+							},
+							{
+								"text": "+7 706 411 8660",
+								"link": "tel:+77064118660",
+								"img": "/admin/data/blocks/public/feedback/phone.png"
+							},
+							{
+								"text": "@homsters_kz",
+								"link": "//facebook.com",
+								"img": "/admin/data/blocks/public/feedback/facebook.png"
+							},
+							{
+								"text": "@homsters_kz",
+								"link": "//instagram.com",
+								"img": "/admin/data/blocks/public/feedback/instagram.png"
+							}
+						]
+					}
+				},
+				{
+					"id": "ghn3g0h3b2v890qqqqf",
+					"component": "footer",
+					"params": {
+						"text": "@reaverjs"
+					}
+				}
+			]
+		},
+		{
+			"url": "/events/nur-sultan",
+			"title": "Эвент Нур-султан",
+			"props": {
+				"description": "Самая лучшая тестовая страница"
+			},
+			"blocks": [
+				{
+					"id": "f1g980bb98fb9812b89f",
+					"component": "header",
+					"params": {
+						"logo": "/admin/data/blocks/public/header/logo.png",
+						"menu": [
+							{
+								"text": "Эвенты",
+								"scrollTo": ".events",
+								"isSpecial": false
+							},
+							{
+								"text": "Организаторы",
+								"scrollTo": ".partners",
+								"isSpecial": false
+							},
+							{
+								"text": "Тест",
+								"scrollTo": "kk",
+								"isSpecial": true
+							}
+						]
+					}
+				},
+				{
+					"id": "asdf2gn0b9hbn809vb8998b1b98",
+					"component": "event-hero",
+					"params": {
+						"background": "/admin/data/blocks/public/hero/hero.jpg",
+						"overtitle": "HOMSTERS EVENTS",
+						"title": "Ярмарка недвижимости",
+						"subtitle": "#Expohomsters",
+						"city": "Нур-Султан",
+						"address": "Саруан, 44",
+						"date": "2-3",
+						"month": "сентября",
+						"btnText": "Стать партнером",
+						"scrollTo": ".registration"
+					}
+				},
+				{
+					"id": "a1fn0bb1fbb8b8111",
+					"component": "registration",
+					"params": {
+						"cities": [
+							{
+								"name": "Алматы"
+							},
+							{
+								"name": "Нур-султан"
+							}
+						]
+					}
+				},
+				{
+					"id": "55555gasd",
+					"component": "partners",
+					"params": {
+						"title": "Партнеры",
+						"partners": [
+							{
+								"img": "/admin/data/blocks/public/partners/partner-a.jpg",
+								"class": ""
+							},
+							{
+								"img": "/admin/data/blocks/public/partners/logo.png",
+								"class": "homsters-fix"
+							},
+							{
+								"img": "/admin/data/blocks/public/partners/partner-k.png",
+								"class": "kjk-fix"
+							}
+						]
+					}
+				},
+				{
+					"id": "444444asdgasdvzx",
+					"component": "feedback",
+					"params": {
+						"title": "Свяжитесь с нами",
+						"links": [
+							{
+								"text": "mussirova@homsters.kz",
+								"link": "mailto:mussirova@homsters.kz",
+								"img": "/admin/data/blocks/public/feedback/email.png"
+							},
+							{
+								"text": "+7 706 411 8660",
+								"link": "tel:+77064118660",
+								"img": "/admin/data/blocks/public/feedback/phone.png"
+							},
+							{
+								"text": "@homsters_kz",
+								"link": "//facebook.com",
+								"img": "/admin/data/blocks/public/feedback/facebook.png"
+							},
+							{
+								"text": "@homsters_kz",
+								"link": "//instagram.com",
+								"img": "/admin/data/blocks/public/feedback/instagram.png"
+							}
+						]
+					}
+				},
+				{
+					"id": "bv2n98b89v23b892v3b89aaa",
+					"component": "footer",
+					"params": {
+						"text": "@reaverjs"
+					}
+				}
+			]
+		},
+		{
+			"url": "/events/online",
+			"title": "Эвент Онлайн",
+			"props": {
+				"description": "Самая лучшая тестовая страница"
+			},
+			"blocks": [
+				{
+					"id": "v2n08h9bb8nv3290b8vb89203",
+					"component": "header",
+					"params": {
+						"logo": "/admin/data/blocks/public/header/logo.png",
+						"menu": [
+							{
+								"text": "Программа",
+								"scrollTo": ".programm",
+								"isSpecial": "isSpecial"
+							},
+							{
+								"text": "Организаторы",
+								"scrollTo": ".partners",
+								"isSpecial": "isSpecial"
+							},
+							{
+								"text": "Контакты",
+								"scrollTo": ".contacts",
+								"isSpecial": "isSpecial"
+							}
+						]
+					}
+				},
+				{
+					"id": "vb9817b981vb8989b1v89bv189b9b8",
+					"component": "event-hero",
+					"params": {
+						"background": "/admin/data/blocks/public/hero/hero.jpg",
+						"overtitle": "ПРИ ПОДДЕРЖКЕ АССОЦИАЦИИ ЗАСТРОЙЩИКОВ КАЗАХСТАНА И КАЗАХСТАНСКОЙ ЖИЛИЩНОЙ КОМПАНИИ",
+						"title": "ПЕРЕЗАГРУЗКА РЫНКА НЕДВИЖИМОСТИ",
+						"subtitle": "Простыми словами о главном",
+						"city": "Онлайн",
+						"address": "Zoom, 11:00 (GMT+6)",
+						"date": "28",
+						"month": "июня",
+						"btnText": "Зарегистрироваться",
+						"scrollTo": ".registration"
+					}
+				},
+				{
+					"id": "v1xc2x12rc6x6xrct12ct67",
+					"component": "speakers-cards",
+					"params": {
+						"h1": "Kekw"
+					}
+				},
+				{
+					"id": "8bb8vqb8b89q9q9q99q99q9",
+					"component": "program-cards",
+					"params": {
+						"h1": "Kekw"
+					}
+				},
+				{
+					"id": "g29hn308b98gb98blkjaskkskksks",
+					"component": "registration",
+					"params": {
+						"cities": [
+							{
+								"name": "Алматы"
+							},
+							{
+								"name": "Нур-султан"
+							},
+							{
+								"name": "Шымкент"
+							},
+							{
+								"name": "Актау"
+							},
+							{
+								"name": "Актобе"
+							},
+							{
+								"name": "Атырау"
+							},
+							{
+								"name": "Караганда"
+							},
+							{
+								"name": "Кокшетау"
+							},
+							{
+								"name": "Костанай"
+							},
+							{
+								"name": "Кызылорда"
+							},
+							{
+								"name": "Павлодар"
+							},
+							{
+								"name": "Петропавловск"
+							},
+							{
+								"name": "Семей"
+							},
+							{
+								"name": "Тараз"
+							},
+							{
+								"name": "Туркестан"
+							},
+							{
+								"name": "Талдыкорган"
+							},
+							{
+								"name": "Уральск"
+							},
+							{
+								"name": "Усть-Каменогорск"
+							}
+						]
+					}
+				},
+				{
+					"id": "asdfb vb9789000000000",
+					"component": "partners",
+					"params": {
+						"title": "Организаторы",
+						"partners": [
+							{
+								"img": "/admin/data/blocks/public/partners/partner-a.jpg",
+								"class": ""
+							},
+							{
+								"img": "/admin/data/blocks/public/partners/logo.png",
+								"class": "homsters-fix"
+							},
+							{
+								"img": "/admin/data/blocks/public/partners/partner-k.png",
+								"class": "kjk-fix"
+							}
+						]
+					}
+				},
+				{
+					"id": "asdf123123123123123",
+					"component": "feedback",
+					"params": {
+						"title": "Свяжитесь с нами",
+						"links": [
+							{
+								"text": "mussirova@homsters.kz",
+								"link": "mailto:mussirova@homsters.kz",
+								"img": "/admin/data/blocks/public/feedback/email.png"
+							},
+							{
+								"text": "+7 706 411 8660",
+								"link": "tel:+77064118660",
+								"img": "/admin/data/blocks/public/feedback/phone.png"
+							},
+							{
+								"text": "@homsters_kz",
+								"link": "//facebook.com",
+								"img": "/admin/data/blocks/public/feedback/facebook.png"
+							},
+							{
+								"text": "@homsters_kz",
+								"link": "//instagram.com",
+								"img": "/admin/data/blocks/public/feedback/instagram.png"
+							}
+						]
+					}
+				},
+				{
+					"id": "bvn09382vb2983b982b98",
+					"component": "footer",
+					"params": {
+						"text": "@reaverjs"
+					}
+				}
+			]
+		}
+	]
+}

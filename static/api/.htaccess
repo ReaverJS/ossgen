@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /ossgen/api/
+
+RewriteCond %{QUERY_STRING} !method
+RewriteRule ^(.+)$ /ossgen/api/index.php?method=$1 [L]
